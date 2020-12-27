@@ -1,0 +1,1190 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Microsoft YaHei";
+    position: relative;
+}
+
+.boxguding {
+    position: fixed;
+    right: 1%;
+    bottom: 2%;
+}
+
+#guding a {
+    display: block;
+    background-color: white;
+    position: relative;
+}
+
+#guding img {
+    padding: 5px;
+}
+
+#guding a:hover {
+    background-color: rgb(0, 204, 255);
+}
+
+#yincang {
+    padding: 4px;
+    background-color: white;
+    position: absolute;
+    text-align: center;
+    font-size: 75%;
+    bottom: 0;
+    right: 110%;
+    z-index: -10;
+    opacity: 0;
+    transition: all 0.4s;
+}
+
+#yincang p {
+    margin: 10px 0px;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    border: none;
+    vertical-align: middle;
+}
+
+.header-container {
+    width: 100%;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.9);
+    position: relative;
+}
+
+.right-container {
+    position: absolute;
+    left: 3px;
+    top: 10%;
+}
+
+.left-container1 {
+    position: absolute;
+    right: 15%;
+    top: 10%;
+}
+
+.left-container2 a {
+    color: rgba(225, 225, 225, 0.5);
+    font-size: 80%;
+}
+
+.left-container2 a:hover {
+    color: white;
+}
+
+#search {
+    width: 0px;
+    height: 40px;
+    border-style: none;
+    transition: all .6s;
+    font-size: 102%;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.search-2 {
+    background-color: black;
+    border: none;
+    cursor: pointer;
+}
+
+.search-2 :hover {
+    background-color: blue;
+    color: white;
+}
+
+#secondcontainer {
+    background-color: rgba(0, 0, 0, 0.9);
+    padding: 6px;
+}
+
+.fubiao {
+    position: absolute;
+    right: 0%;
+    top: 38px;
+    width: 153px;
+    height: 45px;
+    background-color: rgb(224, 93, 17);
+    cursor: pointer;
+    border: none;
+}
+
+.left-container2 {
+    position: absolute;
+    right: 7%;
+    top: 31%;
+}
+
+.fubiao a {
+    color: white;
+    font-weight: bold;
+    font-size: 120%;
+}
+
+.fubiao:hover {
+    background-color: rgb(255, 105, 5);
+}
+
+.secondd div {
+    margin: 0px 12px;
+}
+
+.dropbtn {
+    background-color: rgba(0, 0, 0, 0.1);
+    border: none;
+    cursor: pointer;
+    font-size: 102%;
+    position: relative;
+}
+
+.dropbtn a {
+    color: white;
+}
+
+.dropbtn img {
+    display: none;
+}
+
+.dropbtn a:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+.dropdown-container {
+    display: none;
+    background-color: white;
+    position: absolute;
+    min-width: 650px;
+    height: auto;
+    z-index: 1000;
+}
+
+.dropdown-container a {
+    color: black;
+    font-size: 110%;
+    display: block;
+    transition: 0.2s;
+}
+
+.dropdown:hover .dropdown-container {
+    display: block;
+}
+
+.text-lianjie {
+    padding: 18px;
+    background-color: white;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    left: -300%;
+    background-color: rgba(0, 0, 0, 0.9);
+    min-width: 250px;
+    height: auto;
+    min-height: 400px;
+    z-index: 1000;
+}
+
+.dropdown-content a {
+    color: white;
+    display: block;
+    padding: 8px 8px;
+    transition: 0.1s;
+}
+
+.dropdown-content a:hover {
+    background-color: blue;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.margin img {
+    display: none;
+}
+
+.text-lianjie a:hover {
+    color: rgb(14, 191, 245);
+    background-color: rgba(0, 0, 0, 0);
+}
+
+#text {
+    display: none;
+    min-width: 600px;
+    height: 100%;
+    position: absolute;
+    left: 100%;
+    top: 0%;
+}
+
+.text-lianjie a {
+    color: black;
+}
+
+.sanji:hover #text {
+    display: block;
+}
+
+.sanji1 {
+    border-width: 0 0 0 4px;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0.3);
+    padding: 25px;
+    margin: 10px;
+}
+
+.text {
+    min-height: 250px;
+    max-width: 850px;
+}
+
+.text h1 {
+    font-weight: inherit;
+}
+
+#wrapp {
+    height: 400px;
+    width: 100%;
+    left: 0px;
+    background-color: black;
+    position: relative;
+    overflow: hidden;
+}
+
+.pointlist {
+    padding-left: 0px;
+    list-style: none;
+    position: absolute;
+    left: 42%;
+    bottom: 0;
+    z-index: 110;
+    height: 30px;
+}
+
+#wrap {
+    width: 500%;
+    height: 400px;
+    position: relative;
+    transition: all 1s;
+}
+
+.point:hover a {
+    background-color: white;
+}
+
+.point {
+    float: left;
+    width: 52px;
+    height: 30px;
+    margin: 4px;
+    cursor: pointer;
+}
+
+.btn {
+    width: 52px;
+    height: 3px;
+    background-color: rgba(255, 255, 255, 0.2);
+    float: left;
+    cursor: pointer;
+}
+
+.btn.active {
+    background-color: white;
+}
+
+.item a {
+    padding: 10px 32px;
+    background-color: rgb(0, 102, 255);
+    color: white;
+    left: 0;
+    bottom: 20%;
+}
+
+.item h1 {
+    font-size: 250%;
+}
+
+.item img {
+    margin-left: 120px;
+}
+
+.item a:hover {
+    background-color: rgb(41, 241, 255);
+}
+
+.item {
+    width: 20%;
+    height: 400px;
+    color: white;
+    transition: all 0.6s;
+    background-color: rgba(0, 0, 0, 0.9);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    float: left;
+    position: relative;
+    overflow: hidden;
+}
+
+.item ul {
+    margin: 0;
+}
+
+.item.active {
+    z-index: 100;
+    opacity: 1;
+}
+
+dd {
+    cursor: pointer;
+    font-size: 80%;
+    color: rgba(0, 0, 0, 0.4);
+}
+
+.container-2 a {
+    color: rgb(11, 123, 250);
+    font-size: 190%;
+    font-weight: inherit;
+}
+
+.container-2 a:hover {
+    background-color: rgba(225, 225, 225, 0.9);
+}
+
+.container-2 p {
+    color: rgba(0, 0, 0, 0.7);
+    min-width: 240px;
+}
+
+.container-2 ul {
+    width: 33.1%;
+    min-height: 170px;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.row ul:hover {
+    background-color: rgba(225, 225, 225, 0.9);
+    transition: 0.5s;
+}
+
+.row img {
+    align-self: flex-end;
+}
+
+.roww {
+    display: flex;
+    background-color: rgba(225, 225, 225, 0.5);
+}
+
+#point-22 {
+    width: 2px;
+    height: 45px;
+    background-color: white;
+    position: relative;
+    margin: 0;
+    border: none;
+    transition: all 0.5s;
+}
+
+.container-3 {
+    background-color: rgb(11, 158, 243);
+    height: 380px;
+    position: relative;
+}
+
+.container-list {
+    position: absolute;
+    min-width: 800px;
+    top: 17%;
+    right: 25%;
+}
+
+.list-box {
+    position: absolute;
+    left: 0%;
+    bottom: 10%;
+}
+
+.list-2 li {
+    color: black;
+    padding-left: 50px;
+    padding-right: 20px;
+    margin: 20px;
+    text-align: right;
+    cursor: pointer;
+}
+
+.list-2 li:hover {
+    color: white;
+    transition: all 0.4s;
+}
+
+.item-2.active {
+    color: white;
+}
+
+.list-2 {
+    width: 300px;
+    min-height: 200px;
+    border-style: solid;
+    border-width: 0 1px 0 0;
+    border-color: rgba(225, 225, 225, 0.4);
+    position: relative;
+}
+
+.point-2 {
+    position: absolute;
+    right: 0%;
+    top: 0%;
+    z-index: 10;
+}
+
+.list-style {
+    opacity: 0;
+    transition: all 0.6s;
+}
+
+.list-style.active {
+    z-index: 20;
+    opacity: 1;
+}
+
+.list-style h1 {
+    color: white;
+    font-weight: inherit;
+    font-size: 280%;
+}
+
+.list-3 a {
+    border-style: solid;
+    border-color: white;
+    color: white;
+    border-width: 1px 1px 1px 1px;
+    padding: 10px 35px;
+}
+
+.list-3 a:hover {
+    background-color: white;
+    color: rgb(9, 162, 250);
+    transition: all 0.6s;
+}
+
+.list-3 p {
+    color: white;
+}
+
+.list-3 {
+    position: relative;
+}
+
+.list-style {
+    position: absolute;
+    background-color: rgb(11, 158, 243);
+}
+
+.container-4 {
+    position: relative;
+}
+
+#container-5 {
+    display: flex;
+    flex-wrap: wrap;
+    overflow-y: hidden;
+    height: 720px;
+    transition: all 2s;
+}
+
+.container-4 ul {
+    width: 25%;
+    height: 360px;
+    cursor: pointer;
+    transition: all 0.6s;
+    border-color: rgba(0, 0, 0, 0.2);
+    border-style: solid;
+    border-width: 0 0 1.5px 1.5px;
+    margin: 0px;
+}
+
+.container-4 ul:hover {
+    background-color: rgba(225, 225, 225, 0.3);
+}
+
+.h2 {
+    height: 160px;
+}
+
+h2 {
+    font-size: 270%;
+    padding: 20px;
+    font-weight: inherit;
+    position: absolute;
+    top: 25px;
+    left: 26%;
+}
+
+.littlebox a {
+    color: rgb(2, 174, 253);
+    display: flex;
+    justify-content: center;
+}
+
+.littlebox h3 {
+    display: flex;
+    justify-content: center;
+    font-size: 150%;
+    font-weight: bold;
+    width: 100%;
+}
+
+.littlebox img {
+    display: flex;
+    justify-content: center;
+}
+
+.littlebox p {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 270px;
+}
+
+.littlebox a:hover {
+    text-decoration: underline;
+}
+
+#xialabiao p {
+    color: rgb(10, 168, 241);
+    font-size: 150%;
+}
+
+#xiala {
+    position: relative;
+    height: 85px;
+}
+
+.media-style {
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: white;
+    position: absolute;
+    top: 10px;
+    left: 45%;
+    overflow: hidden;
+}
+
+.interval {
+    height: 40px;
+    background-color: white;
+}
+
+.container-6 {
+    height: 380px;
+    background: url("../images/背景.jpg") no-repeat;
+    background-size: cover;
+}
+
+.container-6 h1 {
+    color: white;
+    padding: 10px;
+    font-size: 250%;
+    font-weight: inherit;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.img-container {
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.img-container div {
+    margin: 15px 10px;
+}
+
+.img-a {
+    width: 13%;
+    height: 15%;
+}
+
+.container-6 span {
+    display: block;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    opacity: 0.6;
+    height: 100%;
+    transition: all 0.5s;
+}
+
+.container-6 span:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.container-6 div a {
+    display: block;
+}
+
+.container-6 p a {
+    color: white;
+    padding: 5px 5px;
+}
+
+.container-6 p {
+    text-align: center;
+    font-weight: bold;
+    padding: 5px;
+}
+
+.map {
+    text-align: center;
+}
+
+.map h1 {
+    font-size: 245%;
+    font-weight: inherit;
+    padding: 10px;
+    padding-top: 20px;
+    margin-top: 20px;
+}
+
+.container-7 {
+    height: 60px;
+    background-color: black;
+}
+
+.container-biao {
+    display: flex;
+    justify-content: start;
+}
+
+.text-link a {
+    color: white;
+    display: block;
+    padding-top: 20px;
+    width: 400px;
+}
+
+.container-biao .text-link:hover {
+    color: blue;
+}
+
+.container-biao a:hover {
+    color: blue;
+}
+
+.container-biao li {
+    color: white;
+}
+
+.container-biao {
+    list-style: disc;
+}
+
+.container-8 {
+    height: 30px;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+h6 {
+    color: rgba(225, 225, 225, 0.6);
+    font-size: 70%;
+    padding: 10px;
+    font-weight: initial;
+}
+
+h6 img {
+    display: none;
+}
+
+.container-9 {
+    background-color: rgba(0, 0, 0, 0.9);
+    display: flex;
+    height: 400px;
+}
+
+.container-9 a {
+    color: white;
+    font-size: 80%;
+    display: block;
+    width: 320px;
+    padding: 5px;
+}
+
+.container-9 a:hover {
+    color: rgb(0, 119, 255);
+}
+
+.box-1 {
+    margin: 0 200px 0 0;
+}
+
+.code-container1 {
+    width: 100px;
+    height: 120px;
+    background-color: white;
+    text-align: center;
+    font-size: 80%;
+    margin-bottom: 30px;
+}
+
+.code-container2 {
+    width: 100px;
+    height: 120px;
+    background-color: white;
+    text-align: center;
+    font-size: 80%;
+}
+
+.container-10 {
+    background-color: rgba(0, 0, 0, 0.9);
+    height: 65px;
+    position: relative;
+}
+
+.box-10 {
+    position: absolute;
+    top: 15px;
+}
+
+.box-10 a {
+    margin: 20px;
+    color: white;
+    font-size: 73%;
+}
+
+.box-10 a:hover {
+    color: rgb(0, 119, 255);
+}
+
+.img-10 {
+    position: absolute;
+    right: 0;
+    top: 17px;
+}
+
+.img-10 a {
+    display: block;
+    width: 250px;
+}
+
+.img-10 img {
+    width: 250px;
+}
+
+#dianerji {
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    position: relative;
+    outline: 0;
+}
+
+#dianerjii {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -10;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    outline: 0;
+}
+
+.dsplay {
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    top: -110%;
+    left: 2%;
+    background-color: white;
+    z-index: -10;
+    overflow: hidden;
+}
+
+#display a {
+    color: black;
+    text-align: left;
+    z-index: -10;
+}
+
+#display li:hover {
+    background-color: rgb(16, 219, 255);
+}
+
+.caidan {
+    cursor: pointer;
+    border: none;
+    z-index: -100;
+    margin: 0px 0px 0px 15px;
+    position: relative;
+}
+
+.cha {
+    cursor: pointer;
+    border: none;
+    z-index: -200;
+    margin: 10px 10px 10px -22px;
+    position: absolute;
+}
+
+@media screen and (max-width:500px) {
+    body {
+        overflow-x: hidden;
+    }
+    dd {
+        display: none;
+    }
+    .dropbtn {
+        display: flex;
+        justify-content: space-between;
+        padding: 0;
+        margin: 0;
+        flex-grow: 2;
+    }
+    .dropbtn a {
+        margin: 0;
+    }
+    .dropbtn img {
+        margin: 0;
+        display: block;
+    }
+    .secondd button {
+        outline: none;
+        width: 100%;
+    }
+    .boxguding {
+        display: none;
+    }
+    .left-container1 {
+        right: 5%;
+        top: 0;
+    }
+    .search-2 {
+        margin: 0px 0px 0px 5px;
+    }
+    .caidan {
+        z-index: 100;
+    }
+    .secondd {
+        display: none;
+        position: absolute;
+        width: 100%;
+        height: auto;
+        z-index: 999999999;
+        top: 1%;
+        left: 0;
+    }
+    .secondd div {
+        margin: 15px 0px;
+    }
+    .dropdown {
+        width: 100%;
+        margin: 10px 0px 10px 0px;
+        cursor: pointer;
+    }
+    .dropdown-container {
+        position: relative;
+    }
+    .dropdown-content {
+        position: relative;
+        left: 0;
+        height: auto;
+        min-height: 0;
+    }
+    .dropdown:hover .dropdown-container {
+        display: none;
+    }
+    .dropdown:hover .dropdown-content {
+        display: none;
+    }
+    .text-lianjie {
+        width: auto;
+        background-color: black;
+    }
+    .text-lianjie a {
+        color: white;
+    }
+    .text-lianjie a:hover {
+        color: none;
+    }
+    .left-container2 {
+        display: none;
+    }
+    .fubiao {
+        width: 100%;
+        top: 100%;
+        bottom: 0;
+    }
+    .text {
+        min-height: 150px;
+    }
+    .item p {
+        text-align: center;
+    }
+    .item h1 {
+        font-size: 150%;
+        text-align: center;
+    }
+    .item img {
+        margin: 0;
+    }
+    .item a {
+        display: none;
+    }
+    .pointlist {
+        left: 20%;
+    }
+    .btn {
+        width: 35px;
+        height: 2px;
+    }
+    .point {
+        width: 35px;
+        height: 28px;
+    }
+    .container-2 ul {
+        min-height: 150px;
+        width: 100%;
+    }
+    .roww ul {
+        width: 150px;
+    }
+    .img-md {
+        width: 40%;
+        height: 20%;
+        z-index: -1;
+    }
+    .img {
+        max-height: 100%;
+    }
+    .img img {
+        max-width: 100%;
+        max-height: 100%;
+    }
+    .container-2 img {
+        max-width: 100%;
+        height: auto;
+    }
+    .point-2 {
+        display: none;
+    }
+    .list-box {
+        width: 100%;
+    }
+    .list-2 {
+        border-width: 0px 0px 0px 0px;
+        width: 100%;
+    }
+    .list-2 li {
+        text-align: left;
+        margin-left: 0;
+        padding-left: 0;
+        padding-right: 80px;
+        border-width: 2px 0px 0px 0px;
+        border-style: solid;
+        border-color: rgba(255, 255, 255, 0.3);
+    }
+    .container-6 h1 {
+        font-size: 150%;
+    }
+    .container-6 span {
+        width: 100%;
+        height: 100%;
+        opacity: 0.9;
+    }
+    .img-a {
+        width: 30%;
+        height: 8%;
+    }
+    .img-container div {
+        margin: 0px 10px;
+    }
+    .container-4 ul {
+        width: 50%;
+    }
+    .container-4 p {
+        display: none;
+    }
+    .media-style {
+        left: 33%;
+    }
+    h2 {
+        font-size: 200%;
+        text-align: center;
+        left: 0;
+    }
+    .littlebox h3 {
+        font-weight: inherit;
+        text-align: center;
+    }
+    .row {
+        display: flex;
+        flex-direction: column;
+    }
+    .item {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .container-list {
+        min-width: 0px;
+        width: 5%;
+        height: 100%;
+        top: 10%;
+        right: 55%;
+    }
+    .list-style p {
+        font-size: 80%;
+        width: 200px;
+        position: absolute;
+        text-align: left;
+    }
+    .list-style a {
+        position: absolute;
+        bottom: 0;
+    }
+    .list-style h1 {
+        font-size: 200%;
+    }
+    .list-style {
+        overflow: hidden;
+        height: 300px;
+    }
+    .container-3 {
+        height: 400px;
+    }
+    .container-7 {
+        height: auto;
+    }
+    .container-biao {
+        flex-direction: column;
+        margin-left: 25px;
+    }
+    .container-9 {
+        flex-direction: column;
+        height: auto;
+        line-height: 5px;
+    }
+    .container-9 ul {
+        margin-left: 0;
+        width: 100%;
+    }
+    .container-9 li {
+        margin: 20px 0px 20px 0px;
+    }
+    .box-1 {
+        margin: 0;
+    }
+    .box-1 ul {
+        display: none;
+    }
+    #displayfirst {
+        display: none;
+    }
+    #displaysecond {
+        display: none;
+    }
+    #displaythird {
+        display: none;
+    }
+    #displayfourth {
+        display: none;
+    }
+    h6 {
+        text-align: left;
+        font-size: 80%;
+        cursor: pointer;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    h6 img {
+        display: block;
+        margin: 0;
+    }
+    .container-10 {
+        height: 150px;
+    }
+    .box-10 {
+        width: 290px;
+        height: auto;
+    }
+    .box-10 a {
+        margin-left: 0;
+        margin-right: 15px;
+    }
+    .dsplay {
+        top: 35%;
+        left: 34%;
+    }
+    .imgcolor {
+        width: 100%;
+        height: auto;
+        padding: 0%;
+    }
+    .imgcolorr {
+        width: 100%;
+        height: auto;
+    }
+    .img-10 {
+        bottom: 0;
+        top: auto;
+        left: 0;
+    }
+    .img-10 a {
+        width: 100%;
+    }
+    .dropdown-content a {
+        display: contents;
+        margin: 5px 0px;
+        width: auto;
+    }
+    .margin {
+        padding: 5px 0px;
+        margin: 5px 0px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .margin img {
+        margin-right: 0;
+        display: block;
+    }
+    .text-lianjie {
+        display: block;
+    }
+}
